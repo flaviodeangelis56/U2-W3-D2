@@ -17,8 +17,8 @@ const savePlayerName = function (event) {
   event.preventDefault();
   const playerName = document.getElementById("selectedName").value;
   localStorage.setItem("PlayerName", playerName);
-  const name = document.getElementById("nameSelected");
-  name.innerText = playerName;
+  let h3 = document.getElementById("nameSelected");
+  h3.innerText = playerName;
 };
 
 const removePlayerName = function () {
