@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Creazione Personaggio</h1>
+    <h3 id="selectedName">Name Selected:</h3>
+    <h3 id="nameSelected"></h3>
+    <form onsubmit="savePlayerName(event)">
+      <label>Select Player Name:</label>
+      <input type="text" id="selectedName" />
+      <br />
+      <button type="submit">salva nome del personaggio</button>
+      <button type="button" onclick="removePlayerName(event)">cancella nome del personaggio</button>
+    </form>
+    <h2>Timer:</h2>
+    <h3 id="timer"></h3>
+    <script src="script.js"></script>
+  </body>
+</html>

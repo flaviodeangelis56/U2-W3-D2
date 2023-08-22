@@ -1,0 +1,13 @@
+h2 {
+  display: inline-block;
+}
+#timer {
+  display: inline-block;
+}
+button {
+  margin-top: 30px;
+}
+#selectedName,
+#nameSelected {
+  display: inline-block;
+}
